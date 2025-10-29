@@ -72,14 +72,6 @@ const App: React.FC = () => {
         onAnalyze={handleAnalyze}
       />
 
-      <Sidebar
-        analyses={analyses}
-        activeId={activeId}
-        onSelectAnalysis={setActiveId}
-        urlInput={urlInput}
-        setUrlInput={setUrlInput}
-        onAnalyze={handleAnalyze}
-      />
       <MainContent analysis={activeAnalysis} />
     </div>
   );
