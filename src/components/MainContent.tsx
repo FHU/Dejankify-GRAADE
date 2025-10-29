@@ -2,9 +2,7 @@ import React from 'react'
 import ScoreCircle from './ScoreCircle';
 import MetricCard from './MetricCard';
 import Section from './Section';
-import type { Analysis } from '../Types';
-import type { Metric } from '../Types';
-import type { IssuesCollection } from '../Types';
+import type { Analysis, Metric, IssuesCollection } from '../types';
 
 interface MainContentProps {
   analysis: Analysis | undefined;
