@@ -1,5 +1,5 @@
 import React from 'react'
-import type { ScoreColorClass } from '../Types';
+import type { ScoreColorClass } from '../types';
 
 interface ScoreCircleProps {
   score: number;
