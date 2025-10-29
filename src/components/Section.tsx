@@ -1,6 +1,6 @@
 import React from 'react'
 import IssueItem from './IssueItem';
-import type { Issue } from '../types';
+import type { Issue } from '../Types';
 
 interface SectionProps {
   title: string;

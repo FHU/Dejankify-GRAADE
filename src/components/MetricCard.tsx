@@ -1,5 +1,5 @@
 import React from 'react'
-import type { Metric } from '../types';
+import type { Metric } from '../Types';
 
 interface MetricCardProps {
   metric: Metric;

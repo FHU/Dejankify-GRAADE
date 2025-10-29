@@ -1,5 +1,5 @@
 import React from 'react'
-import type { IssueSeverity } from '../types';
+import type { IssueSeverity } from '../Types';
 
 interface IssueItemProps {
   issue: Issue;

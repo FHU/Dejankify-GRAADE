@@ -1,5 +1,5 @@
 import React from 'react'
-import type { Analysis } from '../types';
+import type { Analysis } from '../Types';
 import HistoryItem from './HistoryItem';
 
 interface SidebarProps {
